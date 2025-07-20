@@ -25,8 +25,6 @@
 - [Usage](#usage)
 - [Results](#results)
 - [Architecture](#architecture)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -101,7 +99,6 @@ The system evaluates algorithms across five distinct test scenarios:
 ### Prerequisites
 
 - MATLAB R2020a or later
-- Signal Processing Toolbox (optional for advanced features)
 
 ### Setup Instructions
 
@@ -112,20 +109,11 @@ The system evaluates algorithms across five distinct test scenarios:
    cd Lossless-Codec-Analysis
    ```
 
-2. **Verify Installation**
+2. **Run the Analysis**
 
    ```matlab
    % In MATLAB Command Window
    main_CompressionSystem
-   ```
-
-3. **Check Dependencies**
-   ```matlab
-   % Ensure all classes are accessible
-   which AdaptiveHuffmanEncoder
-   which AdaptiveHuffmanDecoder
-   which ShannonFano
-   which HuffmanNode
    ```
 
 ## Usage
@@ -290,51 +278,11 @@ ShannonFano (Static Methods)
 - **Strategy Pattern**: Interchangeable compression algorithms
 - **Template Method**: Common analysis framework for different algorithms
 
-## Testing
-
-### Automated Test Suite
-
-The system includes comprehensive automated testing:
-
-```matlab
-% Run all tests
-main_CompressionSystem
-
-% Individual algorithm testing
-test_adaptive_huffman()
-test_shannon_fano()
-
-% Performance benchmarking
-benchmark_compression_algorithms()
-```
-
-### Test Coverage
-
-- Basic encoding/decoding functionality
-- Edge cases (empty strings, single characters)
-- Performance regression testing
-- Memory usage validation
-- Cross-platform compatibility
-
-### Reporting Issues
-
-Please use the [GitHub Issues](https://github.com/amank-23/Lossless-Codec-Analysis/issues) page to report:
-
-- **Bugs**: Detailed reproduction steps
-- **Feature Requests**: Clear description and use cases
-- **Documentation**: Improvements and clarifications
-- **Performance**: Optimization suggestions
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-```
-
 ---
 
 <div align="center">
+
+**Built with care by [Aman Kumar](https://github.com/amank-23)**
 
 **Star this repository if it helped you!**
 
