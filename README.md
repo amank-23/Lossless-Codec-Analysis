@@ -2,14 +2,14 @@
 
 # Lossless Codec Analysis System
 
-![MATLAB](https://img.shields.io/badge/MATLAB-R2020a+-blue.svg)
+![MATLAB](https://img.shields.io/badge/MATLAB-R2020a+-blue.svg)(https://github.com/mathworks)  
 
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)(https://www.mathworks.com/products/matlab/requirements.html)
 
 
 **A comprehensive comparison and analysis of lossless data compression algorithms implemented in MATLAB**
 
-[View Demo](#demo) • [Documentation](#documentation) • [Report Bug](#contributing) • [Request Feature](#contributing)
+[Installation](#installation) • [Results](#results) • [Performance Analysis](#performance-analysis) • [Architecture](#architecture)
 
 ---
 
