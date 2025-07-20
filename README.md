@@ -1,6 +1,6 @@
-# Lossless Codec Analysis System
-
 <div align="center">
+
+# Lossless Codec Analysis System
 
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2020a+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
@@ -282,7 +282,7 @@ ShannonFano (Static Methods)
 
 <div align="center">
 
-**Built with care by [Aman Kumar](https://github.com/amank-23)**
+**Built with care by [Aman Keshav Prasad](https://github.com/amank-23)**
 
 **Star this repository if it helped you!**
 
